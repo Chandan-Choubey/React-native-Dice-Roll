@@ -1,0 +1,39 @@
+# React Native
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build artifacts
+android/.gradle/
+android/app/build/
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/res/drawable-*
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj
+*.xcuserdata
+
+# Misc
+.DS_Store
+*.log
+*.lock
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+
+# React Native Debugger
+.react-native-debugger/
